@@ -19,15 +19,15 @@ def tel():
 def alleraletage ():
   rep = input("On reste au rdc ou on cours à l'étage? rdc/étage")
   if (rep == "rdc"):
-    rep=input("prendre le téléphone sur le plan de travail ou se cacher dans le placard à balai (Tel/placard")
-    if(rep=="tel"):
+    rep = input("prendre le téléphone sur le plan de travail ou se cacher dans le placard à balai (Tel/placard")
+    if (rep=="tel"):
       tel()
-    elif(rep=="placard"): 
+    elif (rep=="placard"): 
       print("prie pour ta survie")
       alleraletage()
   elif(rep == "étage"):
     rep = input("s'enfermer dans la salle de bain, sous le lit ou sauter par la fenêtre de la chambre,sdb/lit/fenêtre")
-    if(rep == "sdb"):
+    if (rep == "sdb"):
       security()
     elif (rep == "lit"):
       print("trop facile ta cachette")
@@ -43,7 +43,7 @@ if (rep == "oui"):
   print("Le monsieur te poursuit dans la maison avec une hache. Tu n'as plus que tes yeux pour pleurer.")
   mort()
 else:
-  print("Qu'est ce qu'on fait?")
+  print ("Qu'est ce qu'on fait?")
   rep = input("fermer les portes arrières et volets ou courir se cacher,fermer/ se cacher")
   if (rep == "se cacher"):
     print("Tu penses être en sécurité mais l'assassin n'est pas loin")
